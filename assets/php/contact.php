@@ -4,9 +4,9 @@ use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 
-require '../assets/php/phpmailler/src/Exception.php';
-require '../assets/php/phpmailler/src/PHPMailer.php';
-require '../assets/php/phpmailler/src/SMTP.php';
+require './phpmailler/src/Exception.php';
+require './phpmailler/src/PHPMailer.php';
+require './phpmailler/src/SMTP.php';
 
 if ($_POST) {
 	$response = array();
@@ -41,7 +41,7 @@ if ($_POST) {
 	$mail->Port       = 587;
 	$mail->Host       = "smtp.gmail.com";
 	$mail->Username   = "loncademircisi@gmail.com";
-	$mail->Password   = "annen123FF";
+	$mail->Password   = "aynenaynen123";
 
 	$mail->IsHTML(true);
 	$mail->CharSet = 'UTF-8';

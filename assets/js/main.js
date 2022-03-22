@@ -159,7 +159,7 @@
    */
   new Swiper('.testimonials-slider', {
     speed: 600,
-    loop: true,
+    loop: false,
     autoplay: {
       delay: 5000,
       disableOnInteraction: false

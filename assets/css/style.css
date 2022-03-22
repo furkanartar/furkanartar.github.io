@@ -479,6 +479,9 @@ section .container {
   box-sizing: content-box;
   min-height: 320px;
 }
+.testimonials .testimonial-item:hover {
+ cursor:pointer;
+}
 .testimonials .testimonial-item .testimonial-img {
   width: 90px;
   border-radius: 50%;
@@ -883,7 +886,7 @@ section .container {
   background: rgba(255, 255, 255, 0.1);
 }
 
-.contact .info-box .mailInfo:hover p, .contact .info-box .mailInfo:hover h3{
+.contact .info-box .mailInfo:hover p{
   color: #18d26e;
 }
 
